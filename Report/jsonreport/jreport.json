@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-21T13:27:11.310Z",
+        "line": 13,
+        "name": "Login to dashboard",
+        "description": "",
+        "id": "i-want-to-login;login-to-dashboard;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7105086700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User in login page",
+            "match": {
+              "location": "Stepdef.user_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 221999400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter un as \"Admin\" and pwd as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 31
+                }
+              ],
+              "location": "Stepdef.enter_un_and_pwd(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 280700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login successfull",
+            "match": {
+              "location": "Stepdef.login_successfull()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "I want to login",
+    "description": "",
+    "id": "i-want-to-login",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/vinod/eclipse-workspace/DummyBDD/src/test/java/Feature/login.feature",
+    "tags": []
+  }
+]
